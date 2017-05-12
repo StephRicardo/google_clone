@@ -1,0 +1,101 @@
+a {
+  font-family: arial, sans-serif;
+  color: gray;
+  text-decoration: none;
+}
+
+.header {
+    /*display: table-cell;*/
+    height: 10em;
+    text-align: right;
+    /*line-height: 50px;*/
+    /*vertical-align: middle;*/
+    position: relative;
+}
+
+.header span {
+  margin: 0;
+  /*position: absolute;*/
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.header img {
+  height: 50px;
+  width: 50px;
+}
+
+.google {
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+.google img {
+  height: 92px;
+  width: 272px;
+}
+
+.input {
+  text-align: center;
+  padding: 3px;
+}
+
+.input input {
+  padding: 3px;
+  width: 500px;
+  height: 25px;
+  margin: 20px;
+}
+
+.button {
+  font-family: arial, sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.button button {
+  font-family: arial, sans-serif;
+  color: gray;
+  background-color: #f2f2f2;
+  /*box-sizing: border-box;*/
+  padding: 2px 6px 3px;
+  border-width: 2px;
+  border: 1px solid;
+  border-color: #e4e4e4;
+  /*border-image: initial;*/
+}
+
+footer {
+  position: fixed;
+  /*font-family: arial, sans-serif;
+  color: gray;
+  background-color: #f2f2f2;
+  border-top: 1px solid;
+  border-color: #e4e4e4;
+  font-size: small;
+  position: sticky;*/
+}
+
+.footer {
+  font-family: arial, sans-serif;
+  color: gray;
+  background-color: #f2f2f2;
+  border-top: 1px solid;
+  border-color: #e4e4e4;
+  font-size: small;
+  position: sticky;
+}
+
+.left_footer {
+  text-align: left;
+}
+
+.right_footer {
+  text-align: right;
+}
+
+#center_footer {
+  text-align: center;
+  padding: 5px, 75px;
+}
